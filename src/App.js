@@ -74,7 +74,7 @@ function App() {
           <img src={`./images/${userchoice}.png`} className='user-hand'  alt='user'/>
         </div>
         <div className='choice-computer'>
-          <img className='computer-hand' src={`../images/${computerchoice}.png`} alt='computer'/>
+          <img className='computer-hand' src={`./images/${computerchoice}.png`} alt='computer'/>
         </div>
       </div>
       <div className='button-div'>
