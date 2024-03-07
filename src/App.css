@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background: linear-gradient(to left, #2E3192, #1BFFFF);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  border: 2px solid #fff; 
+  height: 90vh;
+  padding: 1rem;
+  width: 90%;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.container .heading {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem; 
+  margin-bottom: 20px; 
+}
+
+.scores {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  font-size: 1.2rem; 
+  margin-bottom: 20px; 
+}
+
+.userscore,
+.computerscore {
+  margin: 0px 2rem;
+}
+
+.choiceimages {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px; 
+}
+
+.choiceimages img {
+  height: 200px; 
+  width: 200px; 
+  border-radius: 50%; 
+  display: flex;
+  justify-self: center;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+}
+
+.choiceimages .choice-user img {
+  transform: rotateY(180deg);
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; 
+}
+
+.button-div button {
+  padding: 12px 30px;
+  background-color: #FF4500;
+  color: #fff;
+  font-size: 1.2rem; 
+  font-weight: 600;
+  margin-left: 0.5rem;
+  border: none;
+  border-radius: 25px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.button-div button:hover {
+  background-color: #FF6347; 
+}
+
+.result-show {
+  color: #fff;
+  text-align: center;
+  font-size: 1rem; 
+  margin-top: 25px;
+}
+
+.result-match {
+  margin-top: 15px;
+}
+
+.reset-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.reset-button {
+  padding: 13px 35px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 1rem; 
+  border-radius: 25px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.reset-button:hover {
+  background-color: #333; 
+}
